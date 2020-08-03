@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="最新技術と自然との調和を目指す">
+<meta name="viewport" content="width=device-width">
+<title>HOMES</title>
+<link rel="stylesheet" media="all" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<nav id="mainnav">
+	<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+	<div class="panel">
+		<ul>
+			<li><a href="#header">TOP</a></li>
+			<li><a href="#sec01">VISION</a></li>
+			<li><a href="#sec02">MESSAGE</a></li>
+			<li><a href="#sec03">SERVICE</a></li>
+			<li><a href="#sec04">STORY</a></li>
+		</ul>
+	</div>
+</nav>
+
+<header id="header">
+	<%= image_tag "sunset-3042496_1920.jpg"%>
+	<div id="slogan">
+		<h1>HOMES</h1>
+		<h2>最高品質のホームページを</h2>
+	</div>
+</header>
+
+<!-- VISION -->
+<section id="sec01">
+	<header>
+		<h2>VISION</h2>
+	</header>
+	<div class="vision">
+		近年、WEBサイトは欠かせない存在になっている。検索したりショッピングしたり様々なことができる。HOMESでは安くて高品質なWEBサイトを作成できます。
+	</div>
+</section>
+<!-- // VISION -->
+
+<!-- MESSAGE -->
+<section id="sec02">
+	<div class="wrap">
+		<p class="bg"><%= image_tag "friends-1209740_1920.jpg"%></p>
+		<div class="txt">
+			<div class="vMid">
+				<h2>MESSAGE</h2>
+				<p>ホームページを作成すると、売り上げが上がります。またホームページを作成するとよりお客様と密に接することができます。</p>
+			</div>
+		</div>
+	</div>
+	<div id="sec02_02" class="wrap">
+		<p class="bg"><%= image_tag "urban-438393_1920.jpg"%></p>
+		<div class="txt">
+			<div class="vMid">
+				<h2>MESSAGE</h2>
+				<p>企業のホームページは、企業の顔になります。高品質なホームページを作成することにより、企業のイメージがアップします。</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- // MESSAGE -->
+
+<!-- SERVICE -->
+<section id="sec03">
+	<div class="inner1">
+		<ul class="col3">
+		
+			<li>
+				<h2>SERVICE</h2>
+				<%= image_tag "circleImg01.png",width:"288",height:"288"%>
+				<img src="images/circleImg01.png" width="288" height="288" alt="">
+				<p>当サービスが安く、早く、高品質なホームページを作成します！</p>
+			</li>
+			<li>
+				<h2>MESSAGE</h2>
+				<%= image_tag "circleImg02.png",width:"288",height:"288"%>
+				<img src="images/circleImg02.png" width="288" height="288" alt="">
+				<p>ホームページ作成すれば売り上げアップにつながり、有効活用できます。</p>
+			</li>
+			<li>
+				<h2>STORY</h2>
+				<%= image_tag "circleImg03.png",width:"288",height:"288"%>
+				<img src="images/circleImg03.png" width="288" height="288" alt="">
+				<p>当サービスではホームページ公開までしっかりとサポートします！</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- // SERVICE -->
+
+<!-- STORY --> 
+<section id="sec04">
+	<div class="inner">
+		<ul class="col2">
+			<li>
+				<h2>ホームページ作成するメリット</h2>
+				<ul>
+					<li>売り上げあっぷにつながる</li>
+					<li>新規顧客獲得につながる</li>
+					<li>情報発信で信頼につながる</li>
+					<li>営業につながる</li>
+					<li>コストダウンにつながる</li>
+					<li>社員育成につながる</li>
+				</ul>
+			</li>
+			<li>
+				<h2>ホームページ作成するデメリット</h2>
+				<ul>
+						<h1>なし！！</h1>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- // STORY -->
+
+<div class="form">
+	<h1>お問い合わせ</h1>
+	<h2><%=link_to("お問い合わせはこちら","https://coconala.com/services/1322209?ref=top_favorites&ref_kind=home&ref_no=1")%></h2>
+</div>
+
+<!-- // PROFILE -->
+
+<footer id="footer">
+	Copyright(c) 20XX Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+</footer>
+
+</body>
+</html>
