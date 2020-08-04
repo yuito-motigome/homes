@@ -190,7 +190,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
-  pg (~> 0.19.0)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.3)
   sass-rails (~> 5.0)
