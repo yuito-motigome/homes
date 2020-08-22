@@ -4,4 +4,7 @@ Rails.application.routes.draw do
     root 'home#top'
 
   get "/" => "home#top"
+  get "home/newmail" => "home#newmail"
+  get "home/a" => "home#a"
+  post "home/mail" => "home#mail"
 end
