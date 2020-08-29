@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "ja",
+    "name": "HomesHOMES",
+    "short_name": "HomesHOMES",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://motihome.herokuapp.com/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "最新技術と自然との調和を目指す",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://motihome.herokuapp.com/",
+    "screenshots": []
+}
