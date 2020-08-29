@@ -34,14 +34,16 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    port:                 587,
-    address:              'smtp.163.com',
-    domain:               '163.com',
-    user_name:            'youyouagainplus',
-    password:             'YUito1204',
-    authentication:       'login',
+    address: 'smtp.gmail.com',
+    domain: 'gmail.com',
+    port: 587,
+    user_name: 'youyouagainplus',
+    password: 'YUito1204',
+    authentication: 'login',
     enable_starttls_auto: true
   }
+
+
 
   config.action_mailer.perform_caching = false
 
