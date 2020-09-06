@@ -1,0 +1,23 @@
+{:uriI"…file://app/assets/javascripts/manifest.json?type=application/json&id=88fc8a967ef2db12b7b6625fbc0e7af70cc2a229d54ce3eb684f506e15b83375:ET:load_pathI"app/assets/javascripts;T:filenameI")app/assets/javascripts/manifest.json;T:	nameI"manifest;T:logical_pathI"manifest.json;T:content_typeI"application/json;T:sourceI"{
+    "dir": "ltr",
+    "lang": "ja",
+    "name": "HomesHOMES",
+    "short_name": "HomesHOMES",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://motihome.herokuapp.com/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "æœ€æ–°æŠ€è¡“ã¨è‡ªç„¶ã¨ã®èª¿å’Œã‚’ç›®æŒ‡ã™",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://motihome.herokuapp.com/",
+    "screenshots": []
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"7file-digest://app/assets/javascripts/manifest.json;TTF:charsetI"
+utf-8;F:digest"%¢‡ü:+j¤.qÂ/m3}î¯ı”İO)ÿMy<ØF:lengthi:dependencies_digest"%ÿ*8†c+•ñš×\lë…x×ç¼ylê¬
+¼NşPI:idI"E88fc8a967ef2db12b7b6625fbc0e7af70cc2a229d54ce3eb684f506e15b83375;F:
+mtimel+Á>J_

@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "home/newmail" => "home#newmail"
   get "home/a" => "home#a"
   post "home/mail" => "home#mail"
+  post "home/download" => "home#download"
 end
